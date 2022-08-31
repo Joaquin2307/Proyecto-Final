@@ -1,0 +1,150 @@
+header {
+    background-color: black;
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0%;
+
+}
+
+header h1 {
+    color: white;
+    font-size: 37 px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 30%;
+    margin-left: 100px;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+
+}
+
+nav {
+    font-size: 20px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 24%;
+    left: 33%;
+    z-index: 200px;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+}
+
+nav ul li {
+    flex-grow: 10;
+    padding: 0 15px 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 7px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: rgb(52, 59, 61);
+}
+
+footer {
+    background-color: black;
+    clear: both;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+
+}
+
+nav ul li a.activo {
+    background-color: #2f3639;
+}
+
+.holder {
+    max-width: 1300px;
+    margin: 0 0 0 0;
+    overflow: hidden;
+}
+
+main #bienvenidos {
+    margin: 5px;
+    text-align: left ;
+    color: black;
+    position: relative;
+    left: 35%;
+    font-size: 80px;
+}
+
+ #textobienvenidos {
+    /* margin: 5px; */
+    padding: 5%;
+    text-align: left;
+   background-color: grey;
+    position: relative;
+    left: 10%;
+    display: flex;
+    border-radius: 15px;
+    box-shadow: -10px 10px 10px black;
+    font-size: 28px;
+}
+
+#carouselExampleIndicators {
+    margin: 15%;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 14%;
+
+}
+.carousel-inner {
+    width: 600px;
+    height: 30%;
+}
+ 
+form {
+        width : 150px;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+#contacto{
+    position: relative;
+    left: 650px;
+    top: 80px;
+}
+
+#titulo{
+    position: relative;
+    top: 15px;
+    font-size: 70px;
+}
+
+.novedadestit{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    font-size: 70px;
+}
+
+.nov{
+    position:relative;
+    top: 150px;
+    margin: 150px;
+}
